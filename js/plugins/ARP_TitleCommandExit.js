@@ -2,6 +2,7 @@
 // ARP_TitleCommandExit.js
 //=============================================================================
 
+
 /*:
  * @plugindesc v1.00 Adds an option in the title command window to close
  * game window.
